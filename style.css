@@ -1,0 +1,96 @@
+body, h1, a, p {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box; 
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-family: 'Lexend Deca', sans-serif;
+  background-color: hsl(0, 0%, 95%);
+}
+
+.card {
+  max-width: 932px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: .4rem;
+  overflow: hidden;
+  margin: 0 5%;
+}
+
+.card-item {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 200px;
+  padding: 50px;
+  color: #fff;
+}
+
+.card-item h1 {
+  font-family: 'Big Shoulders Display', cursive;
+  margin: 30px 0;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 95%);
+}
+
+.card-item p{
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.5;
+}
+
+.card-item a {
+  background-color: hsl(0, 0%, 95%);
+  margin: 70px 0 10px 0;
+  cursor: pointer;
+  border: 2px solid hsl(0, 0%, 95%);
+  border-radius: 30px;
+  padding: 10px 15px;
+  width: 150px;
+  text-align: center;
+}
+
+.card-item a:hover {
+  background-color: inherit;
+  color: hsl(0, 0%, 95%);
+}
+
+.orange {
+ background: hsl(31, 77%, 52%);
+ color: hsl(31, 77%, 52%);
+}
+
+.cyan {
+ background: hsl(184, 100%, 22%);
+ color: hsl(184, 100%, 22%);
+}
+
+.dark-cyan {
+ background: hsl(179, 100%, 13%);
+ color: hsl(179, 100%, 13%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
